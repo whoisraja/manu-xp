@@ -1,0 +1,56 @@
+.desktop {
+  height: 100vh;
+  background: linear-gradient(to bottom, #2b7cff, #a3d5ff);
+  padding: 20px;
+  font-family: Tahoma;
+}
+
+.desktop-title {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icon {
+  width: 110px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.window {
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  width: 500px;
+  background: #ece9d8;
+  border: 3px solid #0054e3;
+  border-radius: 8px;
+}
+
+.titlebar {
+  background: linear-gradient(to right, #0054e3, #4a90e2);
+  padding: 8px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titlebar button {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.content {
+  padding: 15px;
+  font-size: 16px;
+}
